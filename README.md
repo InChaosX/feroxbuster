@@ -34,4 +34,44 @@ The goal is to provide a simple starting point similar to tools like `feroxbuste
 - Python **3.9+**
 - Install dependencies:
   ```bash
-  pip install -r requirements.txt
+  pip install aiohttp aiofiles
+
+  save code in file name :  dir_enum_async.py
+
+  run script : python dir_enum_async.py 
+
+  
+
+
+## Usage
+
+Prepare a wordlist.txt file (each line = one path).
+Edit the script and set your target URL:
+
+TARGET = "https://example.com"   # Change this to your test environment
+WORDLIST_FILE = "wordlist.txt"
+
+
+## Example Output
+
+Example lines from results.txt:
+
+200 https://test.local/admin
+401 https://test.local/secret-panel
+403 https://test.local/config.php
+
+
+200 → File/page exists and is accessible.
+
+401 → File/page exists but requires authentication.
+
+403 → File/page exists but is forbidden.
+
+404 or no entry → File/page does not exist.
+
+
+## Results
+Results will be saved in:
+
+results.txt
+
