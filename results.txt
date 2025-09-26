@@ -1,0 +1,5 @@
+200 https://0a880075030280d0adabd1c0009800d0.web-security-academy.net/analytics
+200 https://0a880075030280d0adabd1c0009800d0.web-security-academy.net/cgi-bin
+200 https://0a880075030280d0adabd1c0009800d0.web-security-academy.net/cgi-bin/
+200 https://0a880075030280d0adabd1c0009800d0.web-security-academy.net/favicon.ico
+200 https://0a880075030280d0adabd1c0009800d0.web-security-academy.net/filter
